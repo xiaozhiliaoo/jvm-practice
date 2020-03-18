@@ -1,0 +1,5 @@
+Manifest-Version: 1.0 
+Agent-Class: geym.zbase.ch11.agent.PreMainAddTimeStatAgent
+Premain-Class: geym.zbase.ch11.agent.PreMainAddTimeStatAgent
+Can-Redine-Classes: true
+Can-Retransform-Classes: true 
