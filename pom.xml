@@ -50,7 +50,9 @@
         <!--葛一鸣 实战JVM-->
         <module>practicaljvm</module>
         <!--Demo 理解 JVM-->
-        <module>example</module>
+        <module>examples</module>
+        <!--java虚拟机规范-->
+        <module>JVM-Specification</module>
 
 
     </modules>

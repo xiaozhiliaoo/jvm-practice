@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.nar
 *.ear
@@ -28,3 +28,5 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
+
+target
