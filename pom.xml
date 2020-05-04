@@ -53,6 +53,7 @@
         <module>examples</module>
         <!--java虚拟机规范-->
         <module>JVM-Specification</module>
+        <module>InsideJVM</module>
 
 
     </modules>
