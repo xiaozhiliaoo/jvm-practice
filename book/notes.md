@@ -26,5 +26,12 @@
 JDK newest doc：https://docs.oracle.com/en/java/javase/14/index.html
 core java doc:https://docs.oracle.com/en/java/javase/14/books.html
 
+https://openjdk.java.net/groups/hotspot/
+
+https://wiki.openjdk.java.net/display/HotSpot/Presentations
+
+https://en.wikipedia.org/wiki/HotSpot
+
+
 
 
