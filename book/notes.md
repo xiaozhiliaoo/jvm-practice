@@ -32,6 +32,12 @@ https://wiki.openjdk.java.net/display/HotSpot/Presentations
 
 https://en.wikipedia.org/wiki/HotSpot
 
+https://openjdk.java.net/projects/mlvm/ (userful slide)
+
+Jeremy Singer:http://www.dcs.gla.ac.uk/~jsinger/pdfs/
+
+
+
 
 
 
