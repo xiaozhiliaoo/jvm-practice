@@ -36,7 +36,7 @@ https://openjdk.java.net/projects/mlvm/ (userful slide)
 
 Jeremy Singer:http://www.dcs.gla.ac.uk/~jsinger/pdfs/
 
-
+Paper: https://www.cnblogs.com/WCFGROUP/p/6373416.html
 
 
 
