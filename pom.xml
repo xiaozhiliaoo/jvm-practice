@@ -34,6 +34,12 @@
             <version>3.2.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-jvm</artifactId>
+            <version>4.1.12.1</version>
+        </dependency>
+
 
 
 
@@ -54,6 +60,7 @@
         <!--java虚拟机规范-->
         <module>JVM-Specification</module>
         <module>InsideJVM</module>
+        <module>oom</module>
 
 
     </modules>
