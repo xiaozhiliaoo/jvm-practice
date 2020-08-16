@@ -8,7 +8,7 @@ import java.util.Random;
  * @date 2020/8/16 14:48
  * @notes
  */
-public class Wrapper {
+public class GCoverheadlimitWrapper {
     //-Xmx20m -XX:+UseParallelGC -XX:+PrintGCDetails
     public static void main(String[] args) {
         Map map = System.getProperties();

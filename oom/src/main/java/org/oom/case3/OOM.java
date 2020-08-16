@@ -9,6 +9,7 @@ import java.util.ArrayList;
  */
 public class OOM {
     public static void main(String[] args) {
+        // java.lang.OutOfMemoryError: Java heap space
         ArrayList<int[]> objects = new ArrayList<>();
         for (int i = 0; i < 10000000; i++) {
             objects.add(new int[100_000_000]);

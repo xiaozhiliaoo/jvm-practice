@@ -17,5 +17,11 @@ public class Test35 {
         allocation4 = new byte[4 * _1MB];  // 出现一次Minor GC
     }
 
+    public static void main(String[] args) {
+        //老年代 10M  年轻代 10M 8M eden 1M from 1M to
+        //allocation1，allocation2，allocation3在eden区分配，但是allocation4在old区分配，
+        testAllocation();
+    }
+
 
 }

@@ -8,7 +8,7 @@ import javassist.ClassPool;
  * @date 2020/8/16 15:11
  * @notes
  */
-public class MicroGenerator {
+public class MetaspaceMicroGenerator {
 
     public static class FullPermSpace extends Thread {
         @Override
@@ -40,6 +40,7 @@ public class MicroGenerator {
 
     //-XX:MaxPermSize=1M  不生效   -XX:MaxMetaspaceSize=64m
     public static void main(String[] args) throws Exception {
+        //-XX:MaxMetaspaceSize=64m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags
         FullPermSpace2 fullPermSpace2 = new FullPermSpace2();
         FullPermSpace fullPermSpace = new FullPermSpace();
         fullPermSpace.start();

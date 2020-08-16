@@ -5,7 +5,9 @@ package org.oom.case3;
  * @date 2020/8/16 16:35
  * @notes
  */
-public class MakeThread {
+public class CreateNewNativeThreadMakeThread {
+
+    //Exception in thread "main" java.lang.OutOfMemoryError: unable to create new native thread
     public static void main(String[] args) {
         while (true) {
             new Thread(new Runnable() {

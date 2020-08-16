@@ -8,7 +8,7 @@ import java.util.Map;
  * @date 2020/8/16 14:15
  * @notes
  */
-public class KeyLessEntry {
+public class JavaheapspaceMemoryLeakKeyLessEntryOOM {
     public static class Key {
         Integer id;
 
@@ -22,7 +22,7 @@ public class KeyLessEntry {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Map m = new HashMap();
 
         Key key = new Key(1);
@@ -32,14 +32,14 @@ public class KeyLessEntry {
         System.out.println(m.size());
 
 
-
-//        while (true) {
-//            for (int i = 0; i < 10000; i++) {
-//                if (!m.containsKey(new Key(i))) {
-//                    m.put(new Key(i), "Number:" + i);
-//                }
-//            }
-//            System.out.println(m.keySet().size());
-//        }
+        //java.lang.OutOfMemoryError: GC overhead limit exceeded
+        while (true) {
+            for (int i = 0; i < 1000000000; i++) {
+                if (!m.containsKey(new Key(i))) {
+                    m.put(new Key(i), "Number:" + i);
+                }
+            }
+            System.out.println(m.keySet().size());
+        }
     }
 }
