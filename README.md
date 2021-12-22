@@ -40,13 +40,9 @@
 ## 深入者(5)
 
 1. 《虚拟机：系统与进程的通用平台》 James E. Smith and Ravi Nair Virtual machines - versatile platforms for systems and processes
-
 2. 《JVM G1源码分析和调优》 - 彭成寒
-
 3. 《深入剖析Java虚拟机 : 源码剖析与实例详解（基础卷）》
-
 4. 《垃圾回收算法手册-自动内存管理的艺术》
-
 5. 《GraalVM与Java静态编译：原理与应用林子熠》
 
    
