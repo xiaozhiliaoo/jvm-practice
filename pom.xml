@@ -41,13 +41,7 @@
         </dependency>
 
 
-
-
-
     </dependencies>
-
-
-
 
 
     <modules>
@@ -57,12 +51,6 @@
         <module>practicaljvm</module>
         <!--Demo 理解 JVM-->
         <module>examples</module>
-        <!--java虚拟机规范-->
-        <module>JVM-Specification</module>
-        <module>InsideJVM</module>
-        <module>oom</module>
-
-
     </modules>
 
 
