@@ -1,6 +1,5 @@
-
-
 # Notes
+
 Core java doc:https://docs.oracle.com/en/java/javase/14/books.html
 
 https://openjdk.java.net/groups/hotspot/
